@@ -2,8 +2,8 @@
 <html>
 
 <head>
-  <meta charset=utf-8 />
-  <title> Team Kam Pau </title>
+  <meta charset="UTF-8">
+  <title>Team Kam Pau</title>
 </head>
   
 <body>
