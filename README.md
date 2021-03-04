@@ -1,2 +1,2 @@
-# KamPau.github.io
+# TeamKamPau.github.io
 Creators of a platforming game.
