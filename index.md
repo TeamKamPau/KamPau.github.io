@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Kam Pau</title>
-</head>
-  
 <body>
   <h1>Kam Pau</h1>
 </body>
