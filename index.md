@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Team Kam Pau</title>
 </head>
   
 <body>
