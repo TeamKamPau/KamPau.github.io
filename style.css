@@ -1,12 +1,38 @@
+:root {
+  --bodyboxcolor: #4B443C;
+  --highlightbodyboxcolor: #82786c;
+}
+
 body {
   background-color: #EEEDE7;
   margin: 0px;
   font-family: Tahoma, sans-serif;
 }
 
+.websitetitle {
+  padding: 0em 0em 0em .5em;
+  margin: 0px;
+  font-size: 4em
+}
+
+.headerbox {
+  background-color: #B9B7BD;
+  padding: 0px;
+  margin: 0px
+}
+
 .brainstormimage {
-  width: 300px;
+  width: 450px;
   object-fit: cover;
+}
+
+.miroimage {
+  width: 680px;
+  object-fit: cover;
+}
+
+.clickimage {
+  cursor: pointer;
 }
 
 .center {
@@ -51,4 +77,27 @@ body {
 
 .headerbutton:hover {
   background-position: right;
+}
+
+.contact {
+  cursor: pointer;
+  padding: 1em;
+  color: lightskyblue;
+}
+
+.bodybox {
+  background-color: var(--bodyboxcolor);
+  padding-bottom: 20px;
+  margin-bottom: 20px
+}
+
+.contactbox {
+  background-color: var(--bodyboxcolor);
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.contactbox:hover {
+  background-color: var(--highlightbodyboxcolor);
 }
