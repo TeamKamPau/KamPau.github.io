@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #EEEDE7;
+  background-color: #f5deb3;
   margin: 0px;
   font-family: Tahoma, sans-serif;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 .headerbox {
-  background-color: #deb887;
+  background-color: #deaa88;
   padding: 0px;
   margin: 0px
 }
@@ -56,7 +56,7 @@ body {
 }
 
 .boxshadow {
-  box-shadow: 0px 2px 5px #deb887;
+  box-shadow: 0px 2px 5px #deaa88;
 }
 
 .headerbutton {
