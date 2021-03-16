@@ -103,3 +103,8 @@ body {
 .contactbox:hover {
   background-color: var(--highlightbodyboxcolor);
 }
+
+.ui.borderless.topmenu.container.menu{
+  box-shadow: none;
+  border: none;
+}
