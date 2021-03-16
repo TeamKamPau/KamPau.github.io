@@ -107,3 +107,8 @@ body {
 .ui.borderless.topmenu.container.menu{
   border: none;
 }
+
+.names {
+  font-family: Tahoma, sans-serif;
+  color: 696969
+}
