@@ -110,5 +110,6 @@ body {
 
 .names {
   font-family: Tahoma, sans-serif;
-  color: 696969
+  color: 696969;
+  padding-bottom: 5px;
 }
