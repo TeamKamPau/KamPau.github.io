@@ -9,6 +9,22 @@ body {
   font-family: Tahoma, sans-serif;
 }
 
+.mid {
+  background-color: #f5deb3;
+  padding: 3px;
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+  color: #126180;
+}
+
+.linkbox {
+  background-color: #f5deb3;
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
 .websitetitle {
   padding: 0em 0em 0em .5em;
   margin: 0px;
