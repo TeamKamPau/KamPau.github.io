@@ -2,18 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Kam Pau Project</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 </head>
 
 <body>
-<div class="boxshadow headerbox">
-  <h1 class="websitetitle">Kam Pau</h1>
-  <div>
-    <button class="headerbutton" onclick="window.location.href='teammembers.html'">The Team</button>
-    <button class="headerbutton" onclick="window.location.href='brainstorm.html'">Brainstorming</button>
-    <button class="headerbutton" onclick="window.location.href='index.html'">Home</button>
-    <div  style="clear: both"></div>
+  
+<h1 class="websitetitle">Kam Pau</h1>
+  
+<div class="ui container menu topmenu">
+  <div class="item" onclick="window.location.href='teammembers.html'"> HOME </div>
+  <div class="item" onclick="window.location.href='brainstorm.html'"> BRAINSTORM </div>
+
+  <div class="ui dropdown item">
+    <div class="text"> PROJECT </div>
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <div class="item" href='https://miro.com/app/board/o9J_lRoMiIM=/'> MIRO BOARD </div>
+      <div class="item" href='https://trello.com/b/b8pVDzsJ/teamtobenamed-game-design-project-management'> TRELLO BOARD </div>
+      <div class="item" onclick="window.location.href='about.html'"> ABOUT THE GAME </div>
+      <div class="item" onclick="window.location.href='videos.html'"> VIDEOS </div>
+    </div>
   </div>
+  
 </div>
 
 </body>
