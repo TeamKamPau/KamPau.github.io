@@ -10,12 +10,10 @@ body {
 }
 
 .mid {
-  padding: 3px;
+  padding: 10px;
   font-family: Tahoma, sans-serif;
   text-align: center;
   color: #126180;
-  cursor: pointer;
-  padding: 1em;
 }
 
 .linkbox {
@@ -24,6 +22,8 @@ body {
   margin-bottom: 20px;
   border-radius: 10px;
   width: 300px;
+  cursor: pointer;
+  padding: 1em;
 }
 
 .websitetitle {
