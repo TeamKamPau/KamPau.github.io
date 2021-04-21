@@ -9,6 +9,27 @@ body {
   font-family: Tahoma, sans-serif;
 }
 
+p {
+  font-size: 1.2em;
+}
+
+.hovertext:hover {
+  color: #73d7f0;
+  cursor: pointer;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .mid {
   padding: 20px;
   font-family: Tahoma, sans-serif;
@@ -78,10 +99,11 @@ body {
   float: right;
   border: none;
   margin: 0px;
-  padding: 0px;
+  padding: auto;
   width: 200px;
   height: 50px;
   text-transform: uppercase;
+  text-align: center;
   cursor: pointer;
   font-family: Tahoma, sans-serif;
   font-size: 1.2em;
@@ -111,7 +133,7 @@ body {
   padding-bottom: 0px;
   margin-bottom: 20px;
   border-radius: 15px;
-  width: 750px;
+
 }
 
 .contactbox:hover {
